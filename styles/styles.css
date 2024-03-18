@@ -1,10 +1,9 @@
-#home, #destacados {
+#home, #destacados, #categorias {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
-    padding-right: 25px  ;
+    padding-right: 25px;
 }
-
 .header {
      display: flex;
     justify-content: space-between;
@@ -32,6 +31,7 @@
     width: 100%;
     position: relative;
     display: flex;
+    margin-bottom: 100px;
 }
 .content-left {
     height: 100%;
@@ -92,7 +92,6 @@
 }
 .category {
     font-weight: 500;
-    margin-bottom: -14px;
     text-transform: capitalize;
 }
 .color {
@@ -103,6 +102,48 @@
     font-size: 18px;
     font-weight: 600; 
     text-transform: capitalize;
+}
+#categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.remeras {
+    height: 500px;
+    width: 50%;
+    background-color: #d3d3d3;
+}
+.pantalones {
+    height: 500px;
+    width: 50%;
+    background-color: #a7a7a7;
+}
+.calzas {
+    height: 500px;
+    width: 50%;
+    background-color: #949494;
+}
+.buzos {
+    height: 500px;
+    width: 50%;
+    background-color: #888888;
+}
+.zapatillas {
+    height: 500px;
+    width: 50%;
+    background-color: #747474;
+}
+.medias {
+    height: 500px;
+    width: 50%;
+    background-color: #505050;
+}
+.marcas {
+    background-color: #d3d3d3;
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 
