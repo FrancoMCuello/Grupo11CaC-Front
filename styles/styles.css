@@ -1,11 +1,11 @@
-#home, #destacados, #categorias {
+#home, #destacados, #categorias, #mes {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
 .header {
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -21,7 +21,7 @@
     cursor: pointer;
 }
 #home .publihome {
-    background-color: #d3d3d3;
+    background-color: #FFC5C5;
     height: 600px;
     width: 1220px;
     margin-bottom: 60px;
@@ -41,7 +41,7 @@
 .content-left h1 {
     font-size: 55px;
     text-transform: uppercase;
-    color: #272727;
+    color: #89B9AD;
     margin-bottom: 25px;
 }
 .content-left p {
@@ -68,7 +68,7 @@
 .product {
     height: 370px;
     width: 250px;
-    background-color: #d3d3d3;
+    background-color: #FFEBD8;
     position: relative;
     box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
     display: inline-block;
@@ -82,7 +82,7 @@
     bottom: 16%;
 }  
 .description {
-    padding-top: 230px;
+    padding-top: 225px;
     margin: 0 8px;
 }
 .product h4 {
@@ -93,6 +93,7 @@
 .category {
     font-weight: 500;
     text-transform: capitalize;
+    margin-bottom: -16px;
 }
 .color {
     font-weight: 500;
@@ -138,6 +139,16 @@
     width: 50%;
     background-color: #505050;
 }
+.top {
+    height: 500px;
+    width: 50%;
+    background-color: #505050;
+}
+.short {
+    height: 500px;
+    width: 50%;
+    background-color:#3a3a3a;
+}
 .marcas {
     background-color: #d3d3d3;
     height: 250px;
@@ -145,6 +156,7 @@
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
 
 
 
