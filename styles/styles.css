@@ -1,0 +1,110 @@
+#home, #destacados {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px  ;
+}
+
+.header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+.logo {
+    margin-left: 40px;
+}
+.navbar {
+    margin-right: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#home .publihome {
+    background-color: #d3d3d3;
+    height: 600px;
+    width: 1220px;
+    margin-bottom: 60px;
+}
+.content {
+    height: calc(100% - 110px); 
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.content-left {
+    height: 100%;
+    width: 40%;
+    padding: 80px 80px;
+}
+.content-left h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #272727;
+    margin-bottom: 25px;
+}
+.content-left p {
+    font-size: 20px;
+    color: #272727;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.flechas{
+    display: flex;
+    font-size: 50px;
+    justify-content: right;
+}
+.content-right {
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+} 
+.content-right::-webkit-scrollbar{
+    display: none;
+}
+.product {
+    height: 370px;
+    width: 250px;
+    background-color: #d3d3d3;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
+    display: inline-block;
+    margin-right: 20px;
+}
+.product img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 16%;
+}  
+.description {
+    padding-top: 230px;
+    margin: 0 8px;
+}
+.product h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+.category {
+    font-weight: 500;
+    margin-bottom: -14px;
+    text-transform: capitalize;
+}
+.color {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.precio {
+    font-size: 18px;
+    font-weight: 600; 
+    text-transform: capitalize;
+}
+
+
+
+
