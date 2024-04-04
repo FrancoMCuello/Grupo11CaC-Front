@@ -1,4 +1,4 @@
-#home, #destacados, #categorias, #mes {
+#home, #destacados, #categorias, #camperas, #caractProducto {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -68,7 +68,7 @@
 .product {
     height: 370px;
     width: 250px;
-    background-color: #FFEBD8;
+    background-color: #89B9AD;
     position: relative;
     box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
     display: inline-block;
@@ -112,42 +112,42 @@
 .remeras {
     height: 500px;
     width: 50%;
-    background-color: #d3d3d3;
+    background-color: #FFEBD8;
 }
 .pantalones {
     height: 500px;
     width: 50%;
-    background-color: #a7a7a7;
+    background-color: #C7DCA7;
 }
 .calzas {
     height: 500px;
     width: 50%;
-    background-color: #949494;
+    background-color: #C7DCA7;
 }
-.buzos {
+.camperas {
     height: 500px;
     width: 50%;
-    background-color: #888888;
+    background-color: #FFEBD8;
 }
 .zapatillas {
     height: 500px;
     width: 50%;
-    background-color: #747474;
+    background-color: #FFEBD8;
 }
 .medias {
     height: 500px;
     width: 50%;
-    background-color: #505050;
+    background-color: #C7DCA7;
 }
 .top {
     height: 500px;
     width: 50%;
-    background-color: #505050;
+    background-color: #C7DCA7;;
 }
 .short {
     height: 500px;
     width: 50%;
-    background-color:#3a3a3a;
+    background-color:#FFEBD8;
 }
 .marcas {
     background-color: #d3d3d3;
@@ -156,6 +156,95 @@
     margin-top: 100px;
     margin-bottom: 80px;
 }
+.tituloCategoria {
+    font-size: 80px;
+}
+.contenedorCampera {
+    height: 520px;
+    width: 350px;
+    background-color: #89B9AD;
+    box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
+    display: inline-block;
+}
+.gallery1 {
+    max-width: 1300px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 350px;
+    grid-auto-flow: dense;
+}
+.gallery2 {
+    max-width: 1300px;
+    margin-bottom: 300px;
+    margin-left: 80px;
+    display: grid;
+    grid-gap: 140px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+.imgCampera {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    bottom: 70px;
+}
+.tituloProducto {
+    font-size: 30px;
+    display: flex;
+}
+.contenedorCaract {
+    display: grid;
+    grid-template-columns: 36% 64%;
+    margin-top: 260px;
+}
+.colizq {
+   column-gap: 10px; 
+   row-gap: 10px;
+}
+.inst {
+    margin-top: 30px;
+}
+.agregar {
+    background-color: transparent;
+    font-size: 30px;
+}
+.colder {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 20px;
+    grid-template-columns: 50% 50%;
+}
+.col1 {
+    display: flex;
+    width: 440px;
+    height: 580px;
+    background-color: #89B9AD;
+}
+.col2 {
+    display: flex;
+    width: 440px;
+    height: 580px;
+    background-color: #89B9AD;
+}
+.col3 {
+    display: flex;
+    width: 440px;
+    height: 580px;
+    background-color: #89B9AD;
+}
+.col4 {
+    display: flex;
+    width: 440px;
+    height: 580px;
+    background-color: #89B9AD;
+}
+
+
+
 
 
 
