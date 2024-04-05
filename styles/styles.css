@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #home, #destacados, #categorias, #camperas, #caractProducto {
     max-width: 1300px;
     margin: auto;
@@ -241,6 +245,11 @@
     width: 440px;
     height: 580px;
     background-color: #89B9AD;
+}
+
+.contentForm{
+    background-color: #89B9AD;
+    border: 2px solid black;
 }
 
 
