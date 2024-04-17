@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #home, #destacados, #categorias, #camperas, #caractProducto {
     max-width: 1300px;
     margin: auto;
@@ -241,6 +245,28 @@
     width: 440px;
     height: 580px;
     background-color: #89B9AD;
+}
+
+.containerForm{
+    display: flex;
+    width: 50%;
+    background-color: #89B9AD;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.contentForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+ 
+}
+.contactoClass {
+    color: black;
+    text-decoration:none;
 }
 
 
