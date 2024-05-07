@@ -3,6 +3,7 @@
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    font-family: "Nunito Sans", sans-serif;
 }
 .header {
     display: flex;
@@ -14,10 +15,15 @@
 .logo {
     margin-left: 40px;
 }
-.navbar {
-    margin-right: 40px;
-    font-size: 22px;
-    font-weight: 500;
+ul {
+    display: flex;
+    margin: 0 40px;
+}
+ul li {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    list-style-type: none;
     cursor: pointer;
 }
 #home .publihome {
@@ -31,12 +37,12 @@
     width: 100%;
     position: relative;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .content-left {
     height: 100%;
     width: 40%;
-    padding: 80px 80px;
+    padding: 20px 80px;
 }
 .content-left h1 {
     font-size: 55px;
@@ -58,12 +64,16 @@
 .content-right {
     height: 100%;
     width: 60%;
-    padding: 110px 100px;
+    padding: 90px 100px;
     white-space: nowrap;
     overflow-x: auto;
+    position: relative;
 } 
 .content-right::-webkit-scrollbar{
     display: none;
+}
+.content, .content-left h1 {
+    font-weight:700;
 }
 .product {
     height: 370px;
@@ -73,27 +83,34 @@
     box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
     display: inline-block;
     margin-right: 20px;
+    color: #d9d9d9;
 }
 .product img {
     height: 100%;
     width: 100%;
     object-fit: contain;
     position: absolute;
-    bottom: 16%;
+    display: block;
 }  
 .description {
-    padding-top: 225px;
-    margin: 0 8px;
+    flex-direction: column;
+    color: #d9d9d9;
+    width: 100%;
+    position: absolute;
+    align-items: center;    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 .product h4 {
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: -10px;
+    color: #d9d9d9;
 }
-.category {
+.categorias {
     font-weight: 500;
-    text-transform: capitalize;
-    margin-bottom: -16px;
 }
 .color {
     font-weight: 500;
@@ -101,8 +118,9 @@
 }
 .precio {
     font-size: 18px;
-    font-weight: 600; 
-    text-transform: capitalize;
+    font-weight: 800; 
+    text-align: right;
+    margin-right: 10px;
 }
 #categorias {
     display: flex;
@@ -113,41 +131,50 @@
     height: 500px;
     width: 50%;
     background-color: #FFEBD8;
+    display: flex;
+    position: relative;
+}
+.contDescripcion {
+    width: 100%;
+    position: absolute;
+    color: #272727;
+    margin: 10px 10px;
+}
+.contDescripcion h1{
+    font-size: 3.25rem;
+}
+.contDescripcion h2 {
+    font-size: 2rem;
 }
 .pantalones {
     height: 500px;
     width: 50%;
     background-color: #C7DCA7;
+    display: flex;
 }
 .calzas {
     height: 500px;
     width: 50%;
     background-color: #C7DCA7;
+    display: flex;
 }
 .camperas {
     height: 500px;
     width: 50%;
     background-color: #FFEBD8;
-}
-.zapatillas {
-    height: 500px;
-    width: 50%;
-    background-color: #FFEBD8;
-}
-.medias {
-    height: 500px;
-    width: 50%;
-    background-color: #C7DCA7;
+    display: flex;
 }
 .top {
     height: 500px;
     width: 50%;
-    background-color: #C7DCA7;;
+    background-color: #FFEBD8;
+    display: flex;
 }
-.short {
+.zapatillas {
     height: 500px;
     width: 50%;
-    background-color:#FFEBD8;
+    background-color: #C7DCA7;
+    display: flex;
 }
 .marcas {
     background-color: #d3d3d3;
