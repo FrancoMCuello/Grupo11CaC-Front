@@ -53,10 +53,12 @@ ul li {
     width: 90%;
     color:#FFEBD8;
 }
-.publiHome, .contHome p {
+.contHome p {
     position: absolute;
-    color:#FFEBD8;
-    display: flex;
+    color: #89B9AD;
+    text-align: center;
+    padding-top: 250px;
+    padding-left: 700px;
 }
 .content {
     height: calc(100% - 110px); 
@@ -136,7 +138,7 @@ ul li {
     margin-bottom: -10px;
     color: #d9d9d9;
     background-color: rgba(17, 0, 17, 0.3);
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 .categorias {
     font-weight: 500;
