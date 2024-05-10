@@ -27,34 +27,35 @@ ul li {
 }
 #home .publihome {
     background-image: #FFEBD8;
-    height: 600px;
+    height: 800px;
     display: flex;
     position: relative;
 }
 .contHome {
     width: 100%;
     position: absolute;
-    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+.publiHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .publihome img {
-    width: 100vh;
-    
+    width: 100%;
+    position: relative;
 }
 .contHome h2 {
     position: absolute;
     font-size: 10.5rem;
-    font-weight: 100;
+    font-weight: 200;
     background-color: rgba(17, 0, 17, 0.3);
-    text-align: right;
-    width: 90%;
-    color:#FFEBD8;
-}
-.contHome p {
-    position: absolute;
-    color: #89B9AD;
     text-align: center;
-    padding-top: 250px;
-    padding-left: 700px;
+    width: 100%;
+    color:#FFEBD8;
+    margin-top: 250px;
 }
 .content {
     width: 100%;
@@ -101,12 +102,24 @@ ul li {
 .product {
     height: 370px;
     width: 250px;
-    background-color: #89B9AD;
+    background-image: linear-gradient(to bottom, #89B9AD, rgb(145, 145, 145));
     position: relative;
     box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
     display: inline-block;
     margin-right: 20px;
     color: #d9d9d9;
+}
+.contenedorI {
+    position: absolute;
+    font-size: 2rem;
+    display: flex;
+    color: #272727;
+    font-weight: 100;
+}
+.contenedorI i {
+    display: flex;
+    text-align: right;
+    margin-left: 190px;
 }
 .product img {
     height: 100%;
@@ -286,6 +299,13 @@ ul li {
 .camperas img {
     margin-left: 200px;
     padding-top: 20px;    
+}
+#camperas  h1 {
+    font-size: 55px;
+    color: #272727;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .contDescripcionCamperas {
     width: 100%;
