@@ -420,7 +420,8 @@ ul li {
     font-size: 80px;
 }
 #camperas {
-    height: auto;
+    width: auto;
+    height: 1800px;
 }
 .contenedorCampera {
     height: 520px;
@@ -462,21 +463,21 @@ ul li {
     margin-bottom: 200px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 350px;
     grid-auto-flow: dense;
 }
 .gallery2 {
     max-width: 1300px;
     margin-bottom: 300px;
-    margin-left: 80px;
+    margin-left: 50px;
     display: grid;
     grid-gap: 140px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 250px;
     grid-auto-flow: dense;
 }
-.imgCampera {
+.imgCampera {   
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -487,14 +488,17 @@ ul li {
     font-size: 30px;
     display: flex;
 }
+.caractProducto {
+    width: 1300px;
+}
 .contenedorCaract {
     display: grid;
-    grid-template-columns: 36% 64%;
-    margin-top: 260px;
+    grid-template-columns: 32% 62%;
 }
 .colizq {
    column-gap: 10px; 
    row-gap: 10px;
+   text-align: center;
 }
 .inst {
     margin-top: 30px;
@@ -506,7 +510,7 @@ ul li {
 .colder {
     display: grid;
     column-gap: 40px;
-    row-gap: 20px;
+    row-gap: 10px;
     grid-template-columns: 50% 50%;
 }
 .col1 {
@@ -532,6 +536,18 @@ ul li {
     width: 440px;
     height: 580px;
     background-color: #89B9AD;
+}
+#carrito {
+    background-color: #FFEBD8;
+    height: 500px;
+    width: 1300px;
+    margin: 0 auto;
+}
+#footer {
+    background-color: #89B9AD ;
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 
