@@ -222,52 +222,56 @@
               <form class="contentForm">
                   <div class="formbold-input-flex">
                     <div>
-                        <label for="firstname" class="formbold-form-label"> First name </label>
+                        <label for="firstname" class="container-form-label"> Nombre </label>
                         <input
                         type="text"
                         name="firstname"
                         id="firstname"
-                        placeholder="Jane"
-                        class="formbold-form-input"
+                        placeholder="Franco"
+                        class="container-form-input"
                         />
                     </div>
+                  </div>
+                  <div class="formbold-input-flex">
                     <div>
-                        <label for="lastname" class="formbold-form-label"> Last name </label>
+                        <label for="lastname" class="container-form-label"> Apellido </label>
                         <input
                         type="text"
                         name="lastname"
                         id="lastname"
-                        placeholder="Cooper"
-                        class="formbold-form-input"
+                        placeholder="Perez"
+                        class="container-form-input"
                         />
                     </div>
                   </div>
           
                   <div class="formbold-input-flex">
                     <div>
-                        <label for="email" class="formbold-form-label"> Mail </label>
+                        <label for="email" class="container-form-label"> Mail </label>
                         <input
                         type="email"
                         name="email"
                         id="email"
-                        placeholder="jhon@mail.com"
-                        class="formbold-form-input"
+                        placeholder="fperez@mail.com"
+                        class="container-form-input"
                         />
                     </div>
+                  </div>
+                  <div class="formbold-input-flex">
                     <div>
-                        <label for="phone" class="formbold-form-label"> Phone </label>
+                        <label for="phone" class="container-form-label"> Celular </label>
                         <input
                         type="text"
                         name="phone"
                         id="phone"
                         placeholder="(319) 555-0115"
-                        class="formbold-form-input"
+                        class="container-form-input"
                         />
                     </div>
                   </div>
           
-                  <div class="formbold-input-radio-wrapper">
-                      <label for="jobtitle" class="formbold-form-label"> What are you looking for? </label>
+                  <div class="container-input-radio-wrapper">
+                      <label for="jobtitle" class="container-form-label"> What are you looking for? </label>
           
                       <div class="formbold-radio-flex">
                         <div class="formbold-radio-group">
@@ -305,21 +309,25 @@
                   </div>
           
                   <div>
-                      <label for="message" class="formbold-form-label"> Message </label>
+                      <label for="message" class="container-form-label"> Mensaje </label>
                       <textarea
                           rows="6"
                           name="message"
                           id="message"
                           placeholder="Type your message"
-                          class="formbold-form-input"
+                          class="container-form-input"
                       ></textarea>
                   </div>
           
-                  <button class="formbold-btn">
-                      Send Message
+                  <button class="formbold-btn" type="submit">
+                      Enviar Mensaje
                   </button>
               </form>
+              <div class="error"></div>
             </div>
     </section>
+
+    <script src="./js/script.js"></script>
+
 </body>
 </html>
