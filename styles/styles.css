@@ -1,9 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #home, #destacados, #categorias, #camperas, #caractProducto, #footer {
     max-width: 1300px;
     font-family: "Nunito Sans", sans-serif;
     background-color: #FFEBD8;
     margin: 0 auto;
     padding: 0;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
@@ -591,6 +599,36 @@ ul li {
     margin-bottom: -10px;
 }
 
+
+.containerForm{
+    display: flex;
+    align-self: center;
+    width: 40%;
+   /*  background-image: linear-gradient(90deg, #89B9AD 33.33%, #C7DCA7 33.33%, #C7DCA7 66.66%, #FFC5C5 66.66%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+     background-color: #89B9AD; 
+     box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
+    /*  border: 2px solid black;
+    border-radius: 20px;  */
+    padding: 1em;
+}
+
+.contentForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    row-gap: 3px;
+ 
+}
+.contactoClass {
+    color: black;
+    
+    text-decoration:none;
+}
 
 
 
