@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-#home, #destacados, #categorias, #camperas, #caractProducto, #footer {
+#home, .hero, #destacados, #categorias, #camperas, #caractProducto, #footer {
     max-width: 1300px;
     font-family: "Nunito Sans", sans-serif;
     background-color: #FFEBD8;
@@ -29,38 +29,28 @@ ul {
 ul li {
     text-decoration: none;
     margin: 0 20px;
-    font-size: 18px;
+    font-size: 20px;
     list-style-type: none;
     cursor: pointer;
 }
-#home .publihome {
+.hero {
     background-image: #FFEBD8;
     height: 800px;
     display: flex;
     position: relative;
+    width: 1300px;
+    margin: 0 auto;
 }
-.contHome {
-    width: 100%;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-}
-.publiHome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.publihome img {
+.hero img {
     width: 100%;
     position: relative;
 }
-.contHome h2 {
+.contHero h2 {
     position: absolute;
     font-size: 10.5rem;
     font-weight: 200;
     background-color: rgba(17, 0, 17, 0.3);
-    text-align: center;
+
     width: 100%;
     color:#FFEBD8;
     margin-top: 250px;
@@ -69,6 +59,7 @@ ul li {
     width: 100%;
     position: relative;
     display: flex;
+    padding-top: 40px;
 }
 .content-left {
     height: 100%;
