@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-#home, .hero, #destacados, #categorias, #camperas, #caractProducto, #footer {
+#home, .hero, #destacados, #categorias, #camperas, #caractProducto, #footer, #contacto {
     max-width: 1300px;
     font-family: "Nunito Sans", sans-serif;
     background-color: #FFEBD8;
@@ -12,6 +12,9 @@ html {
 #contacto{
     display: flex;
     flex-direction: column;
+}
+#home {
+    background-color: #FFEBD8;
 }
 .header {
     display: flex;
@@ -29,9 +32,17 @@ ul {
 ul li {
     text-decoration: none;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 1rem;
     list-style-type: none;
     cursor: pointer;
+}
+ul a {
+    color: #272727;
+    text-decoration: none;
+    padding: 0 10px;
+}
+ul a:hover {
+    color:#FFC5C5;
 }
 .hero {
     background-image: #FFEBD8;
@@ -45,13 +56,15 @@ ul li {
     width: 100%;
     position: relative;
 }
-.contHero h2 {
+.contHero {
     position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.contHero h2 {
     font-size: 10.5rem;
     font-weight: 200;
     background-color: rgba(17, 0, 17, 0.3);
-
-    width: 100%;
     color:#FFEBD8;
     margin-top: 250px;
 }
@@ -186,7 +199,7 @@ ul li {
     font-size: 3.25rem; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin: 0 20px;
-
+    padding: 20px;
 }
 .contDescripcion h2 {
     font-size: 3.75rem;
@@ -294,6 +307,7 @@ ul li {
 }
 #camperas h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
 }
 .camperas img {
     margin-left: 200px;
@@ -487,8 +501,9 @@ ul li {
     font-size: 30px;
     display: flex;
 }
-.caractProducto {
+#caractProducto {
     width: 1300px;
+    padding-top: 100px;
 }
 .contenedorCaract {
     display: grid;
@@ -498,9 +513,26 @@ ul li {
    column-gap: 10px; 
    row-gap: 10px;
    text-align: center;
+   padding: 20px 10px;
 }
 .inst {
     margin-top: 30px;
+    font-size: 1.25rem;
+}
+.colizq  button {
+    background-color: transparent;
+    color: #272727;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: none;
+    border: 1px solid #272727;
+    font-weight: 300;
+}
+.colizq  button:hover {
+    background-color:#FFC5C5;
+    border: none;
+    font-weight: 400;
 }
 .agregar {
     background-color: transparent;
@@ -517,6 +549,18 @@ ul li {
     width: 440px;
     height: 580px;
     background-color: #89B9AD;
+}
+.col1 img {
+    object-fit: cover;
+}
+.col2 img {
+    object-fit: cover;
+}
+.col3 img {
+    object-fit: cover;
+}
+.col4 img {
+    object-fit: cover;
 }
 .col2 {
     display: flex;
@@ -551,27 +595,29 @@ ul li {
     font-family: "Nunito Sans", sans-serif;
 }
 .izq img {
-    width: 140px;
-    margin-bottom: -20px;
+    width: 240px;
     align-items: center;
     justify-content: center;
     padding: 0 40px;
+    margin-bottom: -8px;
 }
 .izq p {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: .6rem;
-    margin-bottom: -10px;
+    font-size: .8rem;
+    margin-bottom: -9px;
 }
 .centro {
     text-align: center;
 }
 .centro h3 {
     color: #272727;
+    font-size: 1.25rem;
 }
 .centro i {
     font-size: 2.25rem;
+    color: #272727;
 }
 .der {
     font-family: "Nunito Sans", sans-serif;
@@ -579,18 +625,22 @@ ul li {
     text-shadow: 1rem;
     padding: 0 40px;
 }
-#ayuda {
+#ayuda {    
     color: #272727;
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 40px;
+    margin-bottom: -4px;
 }
 .der p {
     font-size: .75rem;
-    margin-bottom: -10px;
+    margin-bottom: -4px;
 }
-
-
+#contacto h1 {
+    color: #272727;
+    padding-top: 100px;
+    margin: 0 50px;
+}
 .containerForm{
     display: flex;
     align-self: center;
