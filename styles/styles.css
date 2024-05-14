@@ -1,4 +1,4 @@
-#home, #destacados, #categorias, #camperas, #caractProducto {
+#home, #destacados, #categorias, #camperas, #caractProducto, #footer {
     max-width: 1300px;
     font-family: "Nunito Sans", sans-serif;
     background-color: #FFEBD8;
@@ -544,11 +544,53 @@ ul li {
     margin: 0 auto;
 }
 #footer {
-    background-color: #89B9AD ;
-    width: 1300px;
-    height: 300px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #89B9AD;
+    height: 400px;
+    font-family: "Nunito Sans", sans-serif;
 }
+.izq img {
+    width: 140px;
+    margin-bottom: -20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+}
+.izq p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: .6rem;
+    margin-bottom: -10px;
+}
+.centro {
+    text-align: center;
+}
+.centro h3 {
+    color: #272727;
+}
+.centro i {
+    font-size: 2.25rem;
+}
+.der {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: right;
+    text-shadow: 1rem;
+    padding: 0 40px;
+}
+#ayuda {
+    color: #272727;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.der p {
+    font-size: .75rem;
+    margin-bottom: -10px;
+}
+
 
 
 
