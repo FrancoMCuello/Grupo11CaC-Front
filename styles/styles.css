@@ -671,6 +671,14 @@ ul a:hover {
     text-decoration:none;
 }
 
+#mensajeExito {
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
 
 
 
