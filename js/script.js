@@ -2,13 +2,21 @@ const consultas = [];
 
 const form = document.querySelector("form");
 const firstname = document.querySelector("#firstname");
+const lastname = document.querySelector("#lastname");
+const emailI = document.querySelector("#email");
+const phoneI = document.querySelector("#phone");
+const jobtitle = document.querySelector("#jobtitle");
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const name = firstname.value.trim();
+    const lastName = lastname.value.trim();
+    const email = emailI.value;
+    const phone = phoneI.value.trim();
+    const motivo = jobtitle.value.trim();
 
-    const erroresValidation = false;
+    let erroresValidation = false;
 
     if (name.length < 3) {
        
@@ -19,7 +27,7 @@ form.addEventListener('submit', (event) => {
 
         setTimeout(() => {
             error.textContent = "";
-        }, 2000);
+        }, 3000);
 
     } 
 
@@ -28,12 +36,18 @@ form.addEventListener('submit', (event) => {
         const consulta = {
             id: Date.now(),
             name: name,
+            lastName: lastName,
+            email: email,
+            phone: phone,
+            jobtitle: motivo,
             complete: false, 
         };
         
 
         consultas.push(consulta);
         console.log(consultas);
+
+        document.getElementById("mensajeExito").style.display = "flex";
 
         form.reset();
 

@@ -324,6 +324,7 @@
                         id="firstname"
                         placeholder="Franco"
                         class="container-form-input"
+                        required
                         />
                     </div>
                   </div>
@@ -336,6 +337,7 @@
                         id="lastname"
                         placeholder="Perez"
                         class="container-form-input"
+                        required
                         />
                     </div>
                   </div>
@@ -349,6 +351,7 @@
                         id="email"
                         placeholder="fperez@mail.com"
                         class="container-form-input"
+                        required
                         />
                     </div>
                   </div>
@@ -366,13 +369,13 @@
                   </div>
           
                   <div class="container-input-radio-wrapper">
-                      <label for="jobtitle" class="container-form-label"> What are you looking for? </label>
+                      <label for="jobtitle" class="container-form-label"> En que podemos ayudarte? </label>
           
                       <div class="formbold-radio-flex">
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Web Design
+                            Necesito informacion sobre productos
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -380,7 +383,7 @@
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Graphics Design
+                            Quiero realizar una compra
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -388,7 +391,7 @@
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Logo Design
+                            Necesito realizar un reclamo
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -396,7 +399,7 @@
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Others
+                            Otros
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -409,7 +412,7 @@
                           rows="6"
                           name="message"
                           id="message"
-                          placeholder="Type your message"
+                          placeholder="Escribe tu mensaje"
                           class="container-form-input"
                       ></textarea>
                   </div>
@@ -418,8 +421,9 @@
                       Enviar Mensaje
                   </button>
               </form>
-              <div class="error"></div>
+              
             </div>
+            <div id="mensajeExito" style="display:none;">¡El formulario ha sido enviado con éxito!</div>
     </section>
       <section id="footer">
         <div class="izq">
