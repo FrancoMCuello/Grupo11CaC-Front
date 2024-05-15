@@ -10,14 +10,22 @@
     <link rel="shortcut icon" href="#" type="image/svg+xml">
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://kit.fontawesome.com/c7353a05ba.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
-
-
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 
 </head>
 <body>
@@ -25,29 +33,36 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!--iNICIO DE mENU-->
-
-    <nav class="navbar navbar-exapand-md navbar-light bg-white">
-        <div class="container-fluid">
-            <!--icono-->
-            <a class="navbar-brand" href="index.html">
-                <img src="./assets/img/logo.png" alt="logotipo">
-            </a>
-            <ul class="nav justify-content-end">
-                <a href="">      <!--ACA tendria que ir el LINK a la pagina de productos para comprar-->
-                    <i class="bi bi-minecart"></i>
+    <section id="home">
+        <nav class="navbar navbar-exapand-md navbar-light">
+            <div class="container-fluid">
+                <!--icono-->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/home/logo/logo.png" alt="logotipo">
                 </a>
-                <a href="#contacto" class="contactoClass">
-                    <i class="bi bi-person"> </i>
-                </a>
-            </ul>
+                <ul class="nav justify-content-end">
+                    <a href="#categorias">
+                        <li>Productos</li>
+                    </a>
+                    <a href="#">      <!--ACA tendria que ir el LINK a la pagina de productos para comprar-->
+                        <i class="ri-user-line"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-shopping-cart-line"></i>
+                    </a>
+                    <a href="#contacto" class="contactoClass">
+                        <i class="ri-contacts-line"></i>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="hero">
+        <img src="assets/img/home/hero/pruebaPortada.jpg" alt="imagen portada">
+        <div class="contHero">
+            <h2>Running</h2>
         </div>
-    </nav>
-    
-
-
-
-
-
+    </section>
     <section id="destacados">
         <div class="content">
             <div class="content-left">
@@ -60,48 +75,53 @@
             </div>
             <div class="content-right">
                 <div class="product">
-                    <img src="./assets/img/pantalon2.png" alt="pantalon" />
+                    <img src="./assets/img/destacados/des1.png" alt="pantalon" />
+                    <div class="contenedorI">
+                        <p><i class="ri-heart-line"></i></p>
+                    </div>
                     <div class="description">
-                        <h4>Pantalon Nike </h4>
-                        <p class="category">Pantalon</p>
-                        <p class="color">Color: negro</p>
-                        <p class="precio">$25600</p>
+                        <h4>Campera Terrex Multi <br />Rain.RDY 2 Capas</h4>
+                        <p class="precio">$25.600</p>
                     </div>
                 </div>
                 <div class="product">
-                    <img src="./assets/img/remeraadidas.png" alt="pantalon" />
+                    <img src="./assets/img/destacados/des2.png" alt="pantalon" />
+                    <div class="contenedorI">
+                        <p><i class="ri-heart-line"></i></p>
+                    </div>
                     <div class="description">
-                        <h4>Remera Adidas </h4>
-                        <p class="category">Remera</p>
-                        <p class="color">Color: blanco</p>
-                        <p class="precio">$15600</p>
+                        <h4>Camperas de Plumas <br /> VARIlite Hooded </h4>
+                        <p class="precio">$15.600</p>
                     </div>
                 </div>
                 <div class="product">
-                    <img src="./assets/img/zapasfila.png" alt="pantalon" />
+                    <img src="./assets/img/destacados/des3.png" alt="pantalon" />
+                    <div class="contenedorI">
+                        <p><i class="ri-heart-line"></i></p>
+                    </div>
                     <div class="description">
-                        <h4>PZapatillas Fila</h4>
-                        <p class="category">Zapatillas</p>
-                        <p class="color">Color: blanco y rosa</p>
+                        <h4>Rompevientos Essentials <br /> Logo alargado</h4>
                         <p class="precio">$55600</p>
                     </div>
                 </div>
                 <div class="product">
-                    <img src="./assets/img/pantalon2.png" alt="pantalon" />
+                    <img src="./assets/img/destacados/des4.png" alt="pantalon" />
+                    <div class="contenedorI">
+                        <p><i class="ri-heart-line"></i></p>
+                    </div>
                     <div class="description">
-                        <h4>Pantalon Nike </h4>
-                        <p class="category">Pantalon de hombre</p>
-                        <p class="color">Color: negro</p>
-                        <p class="precio">$25600</p>
+                        <h4>Rompevientos Essentials <br /> Logo alargado</h4>
+                        <p class="precio">$55600</p>
                     </div>
                 </div>
                 <div class="product">
-                    <img src="./assets/img/pantalon2.png" alt="pantalon" />
+                    <img src="./assets/img/destacados/des5.png" alt="pantalon" />
+                    <div class="contenedorI">
+                        <p><i class="ri-heart-line"></i></p>
+                    </div>
                     <div class="description">
-                        <h4>Pantalon Nike </h4>
-                        <p class="category">Pantalon de hombre</p>
-                        <p class="color">Color: negro</p>
-                        <p class="precio">$25600</p>
+                        <h4>Rompevientos Essentials <br /> Logo alargado</h4>
+                        <p class="precio">$55600</p>
                     </div>
                 </div>
             </div>
@@ -109,66 +129,123 @@
     </section>
     <section id="categorias">
             <div class="remeras">
-
+                <img src="/assets/img/categorias/remeras/remeraadidas.png" alt="" />
+                <div class="contDescripcion">
+                    <h1>Ultimos modelos</h1>
+                    <h2>Remeras</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá  con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                </div>
             </div>
             <div class="pantalones">
-
+                <img src="/assets/img/categorias/pantalones/pantalon.png" alt="" />
+                <div class="contDescripcionPant">
+                    <h1>Lo mejor en</h1>
+                    <h2>Pantalones</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá  con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                </div>
             </div>
             <div class="calzas">
-
+                <img src="/assets/img/categorias/calzas/calzas.png" alt="" />
+                <div class="contDescripcionCalzas">
+                    <h1>Destacate</h1>
+                    <h2>Calzas</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá  con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                </div>
             </div>
             <div class="camperas">
-    
-            </div>
-            <div class="zapatillas">
-    
-            </div>
-            <div class="medias">
-                
+                <img src="/assets/img/categorias/camperas/camp.png" alt="" />
+                <div class="contDescripcionCamperas">
+                    <h1>Abrigate</h1>
+                    <a href="#camperas"><h2>Camperas</h2></a>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá  con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                </div>
             </div>
             <div class="top">
-
+                <img src="/assets/img/categorias/top/top.png" alt="" />
+                <div class="contDescripcionTop">
+                    <h1>Lucite</h1>
+                    <h2>Top</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá  con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                </div>
             </div>
-            <div class="short">
-
-            </div>
-            <div class="marcas">
-                
+            <div class="zapatillas">
+                <img src="/assets/img/categorias/zapatillas/zapatillas.png" alt="" />
+                <div class="contDescripcionZapatillas">
+                    <h1>Escapate</h1>
+                    <h2>Zapatillas</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá  con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                </div>
             </div>
     </section>
     <section id="camperas">
         <h1 class="tituloCategoria">Camperas</h1>
         <div class="gallery1">
             <div class="contenedorCampera">
-                <img src="./assets/img/campera2.png" class="imgCampera" alt="" />
+                <img src="./assets/img/categorias/camperas/camp.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Rompevientos Essentials Logo Alargado</h4>
+                    <p class="precio">$289.999</p>
+                </div>
             </div>
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp2.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Campera para Lluvia Terrex Multi RAIN.RDY 2 Capas</h4>
+                    <p class="precio">$179.999</p>
+                </div>
             </div>
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp3.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Campera Térmica Terrex Multi Primegreen Hybrid </h4>
+                    <p class="precio">$219.999</p>
+                </div>
             </div>
         </div>
         <div class="gallery2">
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp4.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Rompevientos de Running con Capucha Own the Run</h4>
+                    <p class="precio">$61.599</p>
+                </div>
             </div>
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp5.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Rompevientos de Running con Capucha Own the Run</h4>
+                    <p class="precio">$61.599</p>
+                </div>
             </div>
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp6.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Campera para Lluvia Terrex Multi RAIN.RDY 2 Capas</h4>
+                    <p class="precio">$171.999</p>
+                </div>
             </div>
         </div>
         <div class="gallery1">
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp7.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Campera para Lluvia Terrex Multi RAIN.RDY 2 Capas</h4>
+                    <p class="precio">$179.999</p>
+                </div>
             </div>
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp8.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Campera Rompevientos Terrex Agravic Windweave Pro</h4>
+                    <p class="precio">$288.999</p>
+                </div>
             </div>
             <div class="contenedorCampera">
-                <img src="" alt="" />
+                <img src="./assets/img/categorias/camperas/camp9.png" class="imgCampera" alt="" />
+                <div class="descriptionCamps">
+                    <h4>Campera adidas x FARM Rio</h4>
+                    <p class="precio">$140.999</p>
+                </div>
             </div>
         </div>
     </section>
@@ -180,7 +257,7 @@
                     <p class="par">Presentamos el rompevientos de running con capucha Own The Run: el compañero perfecto para seguir moviéndote cuando el clima no acompaña. La tecnología WIND.RDY está diseñada para protegerte del viento y los detalles reflectantes te hacen visible en            condiciones de poca luz. No dejes que el mal tiempo te detenga: subí el cierre del rompevientos y enfrentate a
                     </p>
                     <h3 class="inst">Instrucciones de lavado</h3>
-                    <p>
+                    <p id="lavado">
                     *No usar blanqueador <br />
                     *No utillizar secadora <br />
                     *No lavar en seco. <br />
@@ -202,78 +279,90 @@
             </div>
             <div class="colder">
                 <div class="col1">
-
+                    <img src="assets/img/categorias/camperas/des/camp4.png" alt="" />
                 </div>
                 <div class="col2">
-
+                    <img src="assets/img/categorias/camperas/des/Rompevientos_de_Running_con_Capucha_Own_the_Run_Azul_HL1546_21_model-removebg-preview.png" alt="" />
                 </div> 
                 <div class="col3">
-
+                    <img src="assets/img/categorias/camperas/des/Rompevientos_de_Running_con_Capucha_Own_the_Run_Azul_HL1546_23_hover_model-removebg-preview.png" alt="">
                 </div>
                 <div class="col4">
-
+                    <img src="assets/img/categorias/camperas/des/Rompevientos_de_Running_con_Capucha_Own_the_Run_Azul_HL1546_25_model-removebg-preview.png" alt="" />
                 </div>
             </div> 
         </div>
     </section>
+    <!---
+    <section id="carrito">
+        <div class="izqcarrito">
+            <div class="oficial">
+
+            </div>
+            <div class="productoPrecio">
+
+            </div>
+            <div class="envio">
+
+            </div>
+        </div>
+        <div class="dercarrito">
+
+        </div>
+    </section>
+    -->
     <section id="contacto">
         <h1>Contacto</h1>
         <div class="containerForm">
               <form class="contentForm">
                   <div class="formbold-input-flex">
                     <div>
-                        <label for="firstname" class="formbold-form-label"> First name </label>
+                        <label for="firstname" class="container-form-label"> Nombre </label>
                         <input
                         type="text"
                         name="firstname"
                         id="firstname"
-                        placeholder="Jane"
-                        class="formbold-form-input"
+                        placeholder="Franco"
+                        class="container-form-input"
+                        required
                         />
                     </div>
+                  </div>
+                  <div class="formbold-input-flex">
                     <div>
-                        <label for="lastname" class="formbold-form-label"> Last name </label>
+                        <label for="lastname" class="container-form-label"> Apellido </label>
                         <input
                         type="text"
                         name="lastname"
                         id="lastname"
-                        placeholder="Cooper"
-                        class="formbold-form-input"
+                        placeholder="Perez"
+                        class="container-form-input"
+                        required
                         />
                     </div>
                   </div>
           
                   <div class="formbold-input-flex">
                     <div>
-                        <label for="email" class="formbold-form-label"> Mail </label>
+                        <label for="email" class="container-form-label"> Mail </label>
                         <input
                         type="email"
                         name="email"
                         id="email"
-                        placeholder="jhon@mail.com"
-                        class="formbold-form-input"
-                        />
-                    </div>
-                    <div>
-                        <label for="phone" class="formbold-form-label"> Phone </label>
-                        <input
-                        type="text"
-                        name="phone"
-                        id="phone"
-                        placeholder="(319) 555-0115"
-                        class="formbold-form-input"
+                        placeholder="fperez@mail.com"
+                        class="container-form-input"
+                        required
                         />
                     </div>
                   </div>
-          
-                  <div class="formbold-input-radio-wrapper">
-                      <label for="jobtitle" class="formbold-form-label"> What are you looking for? </label>
+                  <div class="container-input-radio-wrapper">
+                      <label for="jobtitle" class="container-form-label"> En que podemos ayudarte? </label>
           
                       <div class="formbold-radio-flex">
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Web Design
+                            Necesito informacion sobre productos
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -281,7 +370,7 @@
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Graphics Design
+                            Quiero realizar una compra
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -289,7 +378,7 @@
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Logo Design
+                            Necesito realizar un reclamo
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -297,7 +386,7 @@
                         <div class="formbold-radio-group">
                           <label class="formbold-radio-label">
                             <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                            Others
+                            Otros
                             <span class="formbold-radio-checkmark"></span>
                           </label>
                         </div>
@@ -305,21 +394,59 @@
                   </div>
           
                   <div>
-                      <label for="message" class="formbold-form-label"> Message </label>
+                      <label for="message" class="container-form-label"> Mensaje </label>
                       <textarea
                           rows="6"
                           name="message"
                           id="message"
-                          placeholder="Type your message"
-                          class="formbold-form-input"
+                          placeholder="Escribe tu mensaje"
+                          class="container-form-input"
                       ></textarea>
                   </div>
           
-                  <button class="formbold-btn">
-                      Send Message
+                  <button class="formbold-btn" type="submit">
+                      Enviar Mensaje
                   </button>
               </form>
+              
             </div>
+            <div id="mensajeExito" style="display:none;">¡El formulario ha sido enviado con éxito!</div>
     </section>
+      <section id="footer">
+        <div class="izq">
+            <img src="assets/img/home/logo/logo.png" class="footerlogo"    alt="logoFooter" />
+            <p>Buenos Aires - Argentina</p>
+            <p>&copy;Todos los derechos reservados</p>
+        </div>
+        <div class="centro">
+            <h3>Seguinos en nuestras redes sociales</h3>
+            <i class="ri-facebook-circle-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-twitter-x-line"></i>
+        </div>
+        <div class="der">
+            <div class="cat">
+                <p id="ayuda">Categorias</p>
+                <p>Remeras</p>
+                <p>Pantalones</p>
+                <p>Calzas</p>
+                <p>Camperas</p>
+                <p>Top</p>
+                <p>Zapatillas</p>
+            </div>
+            <div class="cat2">
+                <p id="ayuda">Ayuda</p>
+                <p>Como funciona FEMY</p>
+                <p>Terminos y condiciones</p>
+                <p>Informacion legal</p>
+                <p>Preferencias de cookies</p>
+                <p>Aviso de privacidad</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+
+
 </body>
 </html>
