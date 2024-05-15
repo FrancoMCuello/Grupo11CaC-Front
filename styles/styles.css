@@ -22,9 +22,6 @@ html {
     align-items: center;
     width: 100%;
 }
-.logo {
-    margin-left: 40px;
-}
 ul {
     display: flex;
     margin: 0 40px;
@@ -502,12 +499,13 @@ ul a:hover {
     display: flex;
 }
 #caractProducto {
-    width: 1300px;
     padding-top: 100px;
 }
 .contenedorCaract {
     display: grid;
-    grid-template-columns: 32% 62%;
+    grid-template-columns: 32% 60%;
+    padding-bottom: 50px;
+    margin: 0 20px;
 }
 .colizq {
    column-gap: 10px; 
@@ -540,18 +538,15 @@ ul a:hover {
 }
 .colder {
     display: grid;
-    column-gap: 40px;
+    column-gap: 60px;
     row-gap: 10px;
     grid-template-columns: 50% 50%;
 }
 .col1 {
     display: flex;
-    width: 440px;
+    width: 420px;
     height: 580px;
     background-color: #89B9AD;
-}
-.col1 img {
-    object-fit: cover;
 }
 .col2 img {
     object-fit: cover;
@@ -564,19 +559,19 @@ ul a:hover {
 }
 .col2 {
     display: flex;
-    width: 440px;
+    width: 420px;
     height: 580px;
     background-color: #89B9AD;
 }
 .col3 {
     display: flex;
-    width: 440px;
+    width: 420px;
     height: 580px;
     background-color: #89B9AD;
 }
 .col4 {
     display: flex;
-    width: 440px;
+    width: 420px;
     height: 580px;
     background-color: #89B9AD;
 }
@@ -636,10 +631,18 @@ ul a:hover {
     font-size: .75rem;
     margin-bottom: -4px;
 }
+#contacto {
+    background-color: #C7DCA7;
+    padding-bottom: 80px;
+}
 #contacto h1 {
     color: #272727;
     padding-top: 100px;
     margin: 0 50px;
+}
+#contacto h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
 }
 .containerForm{
     display: flex;
@@ -648,13 +651,16 @@ ul a:hover {
    /*  background-image: linear-gradient(90deg, #89B9AD 33.33%, #C7DCA7 33.33%, #C7DCA7 66.66%, #FFC5C5 66.66%);
     background-size: 100% 100%;
     background-repeat: no-repeat; */
-     background-color: #89B9AD; 
+     background-color: #FFC5C530; 
      box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
     /*  border: 2px solid black;
     border-radius: 20px;  */
     padding: 1em;
+    color: #272727;
 }
-
+label {
+    padding-bottom: 10px;
+}
 .contentForm{
     display: flex;
     flex-direction: column;
@@ -663,14 +669,11 @@ ul a:hover {
     align-items: center;
     width: 100%;
     row-gap: 3px;
- 
 }
 .contactoClass {
     color: black;
-    
     text-decoration:none;
 }
-
 #mensajeExito {
     align-items: center;
     justify-content: center;
@@ -678,6 +681,21 @@ ul a:hover {
     font-weight: bold;
     margin-top: 10px;
   }
+  .formbold-btn {
+    background-color: transparent;
+    color: #272727;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: none;
+    border: 1px solid #272727;
+    font-weight: 300;
+  }
+  .formbold-btn:hover {
+    background-color:#FFC5C5;
+    border: none;
+    font-weight: 400;
+}
 
 
 
