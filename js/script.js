@@ -7,6 +7,13 @@ const emailI = document.querySelector("#email");
 const phoneI = document.querySelector("#phone");
 const jobtitle = document.querySelector("#jobtitle");
 
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Desplazamiento suave
+    });
+  }
+
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
@@ -53,6 +60,8 @@ form.addEventListener('submit', (event) => {
 
         //crear cartel de formulario enviado correctamente
     };
+
+  
 
 
  });

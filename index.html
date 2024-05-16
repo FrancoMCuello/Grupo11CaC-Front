@@ -12,15 +12,10 @@
     <script src="https://kit.fontawesome.com/c7353a05ba.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-
-
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 
     <!-- Bootstrap CSS -->
@@ -28,6 +23,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
+
+
 <body>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -41,8 +38,14 @@
                     <img src="assets/img/home/logo/logo.png" alt="logotipo">
                 </a>
                 <ul class="nav justify-content-end">
+                    <a href="#destacados">
+                        <li>Destacados</li>
+                    </a>
                     <a href="#categorias">
                         <li>Productos</li>
+                    </a>
+                    <a href="#contacto">
+                        <li>Contacto</li>
                     </a>
                     <a href="#">      <!--ACA tendria que ir el LINK a la pagina de productos para comprar-->
                         <i class="ri-user-line"></i>
@@ -50,9 +53,7 @@
                     <a href="#">
                         <i class="ri-shopping-cart-line"></i>
                     </a>
-                    <a href="#contacto" class="contactoClass">
-                        <i class="ri-contacts-line"></i>
-                    </a>
+                    
                 </ul>
             </div>
         </nav>
@@ -126,10 +127,15 @@
                 </div>
             </div>
         </div>
+
+        <button onclick="scrollToTop()" id="btnBackToTop">
+            <i class="ri-arrow-up-s-line flechas"></i>
+        </button>
+
     </section>
     <section id="categorias">
             <div class="remeras">
-                <img src="/assets/img/categorias/remeras/remeraadidas.png" alt="" />
+                <img src="./assets/img/categorias/remeras/remeraadidas.png" alt="" />
                 <div class="contDescripcion">
                     <h1>Ultimos modelos</h1>
                     <h2>Remeras</h2>
@@ -137,7 +143,7 @@
                 </div>
             </div>
             <div class="pantalones">
-                <img src="/assets/img/categorias/pantalones/pantalon.png" alt="" />
+                <img src="./assets/img/categorias/pantalones/pantalon.png" alt="" />
                 <div class="contDescripcionPant">
                     <h1>Lo mejor en</h1>
                     <h2>Pantalones</h2>
@@ -145,7 +151,7 @@
                 </div>
             </div>
             <div class="calzas">
-                <img src="/assets/img/categorias/calzas/calzas.png" alt="" />
+                <img src="./assets/img/categorias/calzas/calzas.png" alt="" />
                 <div class="contDescripcionCalzas">
                     <h1>Destacate</h1>
                     <h2>Calzas</h2>
@@ -153,7 +159,7 @@
                 </div>
             </div>
             <div class="camperas">
-                <img src="/assets/img/categorias/camperas/camp.png" alt="" />
+                <img src="./assets/img/categorias/camperas/camp.png" alt="" />
                 <div class="contDescripcionCamperas">
                     <h1>Abrigate</h1>
                     <a href="#camperas"><h2>Camperas</h2></a>
@@ -161,7 +167,7 @@
                 </div>
             </div>
             <div class="top">
-                <img src="/assets/img/categorias/top/top.png" alt="" />
+                <img src="./assets/img/categorias/top/top.png" alt="" />
                 <div class="contDescripcionTop">
                     <h1>Lucite</h1>
                     <h2>Top</h2>
@@ -169,7 +175,7 @@
                 </div>
             </div>
             <div class="zapatillas">
-                <img src="/assets/img/categorias/zapatillas/zapatillas.png" alt="" />
+                <img src="./assets/img/categorias/zapatillas/zapatillas.png" alt="" />
                 <div class="contDescripcionZapatillas">
                     <h1>Escapate</h1>
                     <h2>Zapatillas</h2>
@@ -312,7 +318,7 @@
     </section>
     -->
     <section id="contacto">
-        <h1>Contacto</h1>
+        <h1 style="padding: 0.5em;">Contacto</h1>
         <div class="containerForm">
               <form class="contentForm">
                   <div class="formbold-input-flex">
@@ -393,7 +399,7 @@
                       </div>
                   </div>
           
-                  <div>
+                  <div class="message">
                       <label for="message" class="container-form-label"> Mensaje </label>
                       <textarea
                           rows="6"
