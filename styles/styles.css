@@ -694,11 +694,6 @@ label {
     font-weight: 400;
 }
 
-.message {
-    display: flex;
-    align-items: center;
-}
-
 .container-form-label {
     padding-right: 1em;
 }
@@ -717,6 +712,11 @@ label {
   
   #btnBackToTop:hover {
     background-color: #C7DCA7;
+  }
+
+  .imagenInput, .formbold-select{
+    display: contents;
+    padding: 0.5em;
   }
 
 
