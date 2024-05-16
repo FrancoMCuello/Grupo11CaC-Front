@@ -5,7 +5,15 @@ const firstname = document.querySelector("#firstname");
 const lastname = document.querySelector("#lastname");
 const emailI = document.querySelector("#email");
 const phoneI = document.querySelector("#phone");
-const jobtitle = document.querySelector("#jobtitle");
+const motivoContacto = document.querySelector("#motivoContacto");
+const medioContacto = document.querySelector("#medios-contact");
+
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Desplazamiento suave
+    });
+  }
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -14,11 +22,12 @@ form.addEventListener('submit', (event) => {
     const lastName = lastname.value.trim();
     const email = emailI.value;
     const phone = phoneI.value.trim();
-    const motivo = jobtitle.value.trim();
+    const motivo = motivoContacto.value.trim();
+    const medioContact = medioContacto.value.trim();
 
     let erroresValidation = false;
 
-    if (name.length < 3) {
+    if (name.length < 2) {
        
         erroresValidation = true;
 
@@ -39,7 +48,8 @@ form.addEventListener('submit', (event) => {
             lastName: lastName,
             email: email,
             phone: phone,
-            jobtitle: motivo,
+            motivoContacto: motivo,
+            medioContacto: medioContact,
             complete: false, 
         };
         
@@ -53,6 +63,8 @@ form.addEventListener('submit', (event) => {
 
         //crear cartel de formulario enviado correctamente
     };
+
+  
 
 
  });
