@@ -16,29 +16,25 @@ html {
 #home {
     background-color: #FFEBD8;
 }
-.header {
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-ul {
+.nav ul {
     display: flex;
     margin: 0 40px;
 }
-ul li {
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 1rem;
-    list-style-type: none;
-    cursor: pointer;
+.nav-link  {
+    color: #272727;
 }
-ul a {
+.nav ul a {
     color: #272727;
     text-decoration: none;
     padding: 0 10px;
 }
-ul a:hover {
+.nav ul a:hover {
     color:#FFC5C5;
 }
 .hero {
