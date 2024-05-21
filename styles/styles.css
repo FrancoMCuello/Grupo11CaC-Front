@@ -21,6 +21,7 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    color: #272727;
 }
 .nav ul {
     display: flex;
@@ -29,13 +30,12 @@ html {
 .nav-link  {
     color: #272727;
 }
-.nav ul a {
+.navbar-collapse a {
     color: #272727;
-    text-decoration: none;
-    padding: 0 10px;
 }
-.nav ul a:hover {
+.navbar-collapse a:hover {
     color:#FFC5C5;
+    font-weight: 800;
 }
 .hero {
     background-image: #FFEBD8;
