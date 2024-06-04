@@ -32,7 +32,7 @@ form.addEventListener('submit', (event) => {
         erroresValidation = true;
 
         const error = document.querySelector('.error');
-        error.textContent = ("El nombre no puede tener menos de 3 caracteres");
+        error.textContent = ("El nombre debe contener al menos 3 caracteres.");
 
         setTimeout(() => {
             error.textContent = "";

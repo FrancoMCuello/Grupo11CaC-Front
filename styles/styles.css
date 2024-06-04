@@ -1,5 +1,5 @@
 * {
-  margin:0;
+  margin: 0;
    padding: 0;
    box-sizing: border-box;
    scroll-behavior: smooth;
@@ -8,6 +8,8 @@
    
  }
  body{
+  padding-left: 10px;
+  padding-right: 10px;
    background-color: rgb(255, 235, 216) !important;
  }
 header{
@@ -238,6 +240,12 @@ h4{
  text-align: center;
  background-color: #C7DCA7;
  padding: 2em;
+}
+
+.contenedorPadreFormulario{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 .formulario{
  display: flex;
